@@ -1,168 +1,168 @@
 * {
-    color: white;
-    box-sizing: border-box;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  html {
-    height: 100vh;
-    width: 100vw;
-    font-family: Times New Roman, Arial;
-   scroll-behavior: smooth;
-  }
-  
-  
-  /*BODY*/
-  body {  
-    /*background: pink;*/
-     background-image: url("https://github.com/AArianaParra/Roman-numeral-convertor/blob/master/Roman%20colisseum.jpg?raw=true"); 
-    background-repeat: no-repeat;
-    /* Use the background-size property to adjust the size of the image */
-    background-size: cover;
-    /* Use the background-position property to align the image within the element */
-    background-position: center; 
-  }
-  
-  #img-title-container, #input, #output {
-  width: 500px;
-  border-radius: 5px;
-  }
-  
-  #number, button {
-    width: 300px;
-    height: 60px;
-    margin-top: 20px;
-  }
-  
-  
-  /*TITLE*/
-  
-  img {
-    width: 270px;
-    height: 70px;
-    margin-top: 10px;
-  }
-  
-  h1 {
-    font-size: 2.3rem;
-  }
-  
-  #img-title-container {
-    background: rgb(96, 19, 19);
-    margin-top: 30px;
-    height: 180px;
-  }
-  
-  
-  /*INPUT*/
-  
-  #input {
-    background: rgba(0, 0, 0, 0.779);
-    height: 230px;
-    margin-top: 20px;
-    padding: 20px;
-  }
-  
-  #input label{
-  font-family: Georgia, serif;
-  font-size: 1.7rem;
-  height: 20px;
-  }
-  
-  #number {
-    background:rgb(170, 161, 161);
-    color: black;
-    font-weight: bold;
-    font-size: 2rem;
-  }
-  
-  button{
-    display: block;
-    background: linear-gradient(rgb(175, 175, 74), rgb(221, 221, 94));
-    border-radius: 15px;
-    font-size: 1.6rem;
-    color: black;
-  }
-  
-  button:hover {
-  background: linear-gradient(rgb(107, 107, 45), rgb(221, 221, 94));
-  }
-  
-  /*OUTPUT*/
-  #output {
-     background: rgba(0, 0, 0, 0.779);
-    height: 90px;
-    margin-top: 20px;
-    padding: 20px;
-    font-size: 2.8rem;
-    font-family: Arial;
-  }
-  
-  /*MEDIA*/
-  
-  @media screen and (max-width: 800px) {
-    #img-title-container {
-    margin-top: 30px;
-    height: 180px;
-  }
-  
-  h1 {
-  font-size: 2.2rem;
-  }
-  
-  #img-title-container, #input, #output {
-  width: 400px;
-  }
-  
-  #number, button {
-    width: 250px;
-    height: 60px;
-  }
-  
-  #input label {
-  font-size: 1.7rem;
-  }
-  
-  button{
-    font-size: 1.6rem;
-  }
-  }
-  
-  @media screen and (max-width: 560px) {
-    #img-title-container {
-    margin-top: 15px;
-    height: 160px;
-  }
-  
-  h1 {
-  font-size: 1.7rem;
-  }
-  
-  #img-title-container, #input, #output {
+  color: white;
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+  font-family: Times New Roman, Arial;
+ scroll-behavior: smooth;
+}
+   
+
+/*BODY*/
+body {  
+  /*background: pink;*/
+   background-image: url("https://github.com/AArianaParra/Roman-numeral-convertor/blob/master/Roman%20colisseum.jpg?raw=true"); 
+  background-repeat: no-repeat;
+  /* Use the background-size property to adjust the size of the image */
+  background-size: cover;
+  /* Use the background-position property to align the image within the element */
+  background-position: center; 
+}
+
+#img-title-container, #input, #output {
+width: 500px;
+border-radius: 5px;
+}
+
+#number, button {
   width: 300px;
-  }
-  
-  #input, #output {
-  height: 210px
-  }
-  
-  #number, button {
-    width: 200px;
-    height: 50px;
-  }
-  
-  #input label {
-  font-size: 1.5rem;
-  }
-  
-  button{
-    font-size: 1.6rem;
-  }
-  
-  #output {
-    font-size: 2.4rem;
-    padding: 70px;
-  }
-  
-  }
+  height: 60px;
+  margin-top: 20px;
+}
+
+
+/*TITLE*/
+
+img {
+  width: 270px;
+  height: 70px;
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 2.3rem;
+}
+
+#img-title-container {
+  background: rgb(96, 19, 19);
+  margin-top: 30px;
+  height: 180px;
+}
+
+
+/*INPUT*/
+
+#input {
+  background: rgba(0, 0, 0, 0.779);
+  height: 230px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+#input label{
+font-family: Georgia, serif;
+font-size: 1.7rem;
+height: 20px;
+}
+
+#number {
+  background:rgb(170, 161, 161);
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+button{
+  display: block;
+  background: linear-gradient(rgb(175, 175, 74), rgb(221, 221, 94));
+  border-radius: 15px;
+  font-size: 1.4rem;
+  color: black;
+}
+
+button:hover {
+background: linear-gradient(rgb(107, 107, 45), rgb(221, 221, 94));
+}
+
+/*OUTPUT*/
+#output {
+   background: rgba(0, 0, 0, 0.779);
+  height: 100px;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 2.2rem;
+  font-family: Arial;
+}
+
+/*MEDIA*/
+
+@media screen and (max-width: 800px) {
+  #img-title-container {
+  margin-top: 30px;
+  height: 180px;
+}
+
+h1 {
+font-size: 2.2rem;
+}
+
+#img-title-container, #input, #output {
+width: 400px;
+}
+
+#number, button {
+  width: 250px;
+  height: 60px;
+}
+
+#input label {
+font-size: 1.7rem;
+}
+
+button{
+  font-size: 1.6rem;
+}
+}
+
+@media screen and (max-width: 560px) {
+  #img-title-container {
+  margin-top: 15px;
+  height: 160px;
+}
+
+h1 {
+font-size: 1.7rem;
+}
+
+#img-title-container, #input, #output {
+width: 300px;
+}
+
+#input, #output {
+height: 210px
+}
+
+#number, button {
+  width: 200px;
+  height: 50px;
+}
+
+#input label {
+font-size: 1.5rem;
+}
+
+button{
+  font-size: 1.6rem;
+}
+
+#output {
+  font-size: 1.7rem;
+  padding: 70px;
+}
+
+}
